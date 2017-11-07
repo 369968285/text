@@ -1,0 +1,50 @@
+@charset "UTF-8";
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin: 0; padding: 0; }
+
+body, button, input, select, textarea { font-size: 12px; font-family: Arial, '微软雅黑'; }
+
+button, input, select, textarea { outline: none; }
+
+em { font-style: normal; }
+
+ul, ol { list-style: none; }
+
+a { text-decoration: none; }
+
+a:hover { text-decoration: none; }
+
+legend { color: #000; }
+
+fieldset, img { border: 0; }
+
+button, input, select, textarea { font-size: 100%; }
+
+button, input, select, textarea { box-sizing: content-box; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+img { -ms-interpolation-mode: bicubic; vertical-align: top; }
+
+textarea { resize: vertical; }
+
+.fl { float: left; }
+
+.fr { float: right; }
+
+.ovf { overflow: hidden; }
+
+.hide { display: none; }
+
+.block { display: block; }
+
+.inline { display: inline; }
+
+label, button { cursor: pointer; }
+
+.clrfix:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+
+.clrfix { display: inline-table; }
+
+.clrfix { display: block; }
+
+* + html .clrfix { min-height: 1%; }
