@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/public.css">
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!-- viewport是网页默认的宽度和高度，上面这行代码的意思是，网页宽度默认等于屏幕宽度（width=device-width），原始缩放比例（initial-scale=1）为1.0，即网页初始大小占屏幕面积的100%。 -->
+	<title>我的个人主页</title>
+</head>
+<body>
+<!-- loaiding动画层 -->
+	<div class="loding">
+		<img class="wu" src="images/wu.png" alt="">
+		<img class="loader" src="images/loader.gif" alt="" >
+	</div>
+	<!-- 顶层 -->
+	<div class="header" id="header">
+		<!-- 导航条 -->
+		<div class="header-nav">
+			<div class="menu">
+				<img src="images/menu.png">
+			</div>
+		</div>
+		<!-- 文字框 -->
+		<div class="header-word-box">
+			<h1 class="hello">Hello</h1>
+		</div>
+		<!-- 鼠标动画 -->
+		<div class="mouse">
+			<div class="mouse-wheel"></div>
+		</div>
+		<!-- 左侧列表 -->
+		<div class="item-box">
+			<div class="item">
+				<img src="images/quxiao.png" class="cancal">
+				<div class="item-word">
+					<ul class="item-mune">
+						<li class="i-h"><a class="a-active" href="#header">主页</a></li>
+						<li class="i-a"><a href="#about">关于</a></li>
+						<li class="i-s"><a href="#work">简历</a></li>
+						<li class="i-p"><a href="#experience">经历</a></li>
+						<li class="i-e"><a href="#skills">技能</a></li>
+						<li class="i-exp"><a href="#contact">联系我</a></li>
+						<a href=""></a>
+					</ul>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<!-- 关于我 -->
+
+	<div class="about" id="about">
+		<div class="about-img">
+			<img src="images/me.jpg">
+		</div>
+		<div class="about-news">
+			<ul class="slide">
+				<li class="slide1">
+					<div class="word-box">
+						<span><strong>姓名:</strong>吴志成</span>
+						<span><strong>电话:</strong>13632432907</span>
+						<span><strong>微信:</strong>wzc19940203</span>
+						<span><strong>现居:</strong>棠下</span>
+						<span><strong>应聘职位:</strong>web前端</span>
+					</div>
+				</li>
+				<li class="slide2">
+					<div class="word-box2">
+						<span>
+							一分天注定，九分靠滤镜.
+						</span>
+					</div>
+				</li>
+			</ul>
+			<div class="choice">
+				<span class="one"></span>
+				<span class="tow"></span>
+			</div>
+		</div>
+	</div>
+	<!-- 鸡汤 -->
+	<div class="work" id="work">
+		<div class="work-box">
+			<div class="work-word">
+				<h1>鸡汤</h1>
+				<span>
+				竹子用了4年的时间， 仅仅长了3cm， 在第五年开始，却以每天30cm的速度疯狂的生长， 仅仅用了六周的时间就长到了15米。其实，在前面的四年， 竹子将根在土壤里延伸了数百平米， 做人做事亦是如此， 不要担心你此时此刻的付出得不到回报， 因为这些付出都是为了扎根，厚积薄发。</span>
+				<p>Where There is a Will There is a Way，所以不要浮躁，每天做好自己，努力扎根，努力成长，不要轻言放弃，总有一天，你会知道原来自己是个土豆。</p>
+				
+			</div>
+			<div class="work-img">
+				<ul>
+					<li>
+							<img src="images/bw-1.png" alt="">
+							<div class="img-wrap"></div>
+					</li>
+					<li>
+							<img src="images/bw-2.png" alt="">
+							<div class="img-wrap"></div>
+					</li>
+					<li>
+							<img src="images/bw-3.png" alt="">
+							<div class="img-wrap"></div>
+					</li>
+					<li>
+							<img src="images/bw-4.png" alt="">
+							<div class="img-wrap"></div>
+					</li>
+					<li>
+							<img src="images/bw-5.png" alt="">
+							<div class="img-wrap"></div>
+					</li>
+					<li>
+							<img src="images/bw-6.png" alt="">
+							<div class="img-wrap"></div>
+					</li>
+				</ul>
+			</div>
+		</div>
+			<!-- 照片查看器 -->
+			<div class="album">
+				<div class="album-img">
+					<img class="img-seat" src="images/bw-1.png" alt="">
+				</div>
+				<img class="album-quxiao" src="images/quxiao.png" alt="">
+				<img class="album-arr-left" src="images/arr_left.png" alt="">
+				<img class="album-arr-right" src="images/arr_right.png" alt="">
+			</div>
+	</div>
+	<!-- 经历 -->
+	<div class="experience" id="experience">
+		<div class="exp-box">
+			<div class="exp-word">
+				<h1>经历</h1>
+				<span>别灰心，人生不就是起起落落落落落落落落落落落落落落落落落落落落落落落落落落落落落落落落落落落落落落落落落落落落落的吗？</span>
+			</div>
+			<div class="exp-centent">
+				<div class="exp-card1 exp-card">
+					<div class="exp-card-bor">
+						<div class="exp-card-bor-word">
+							<p>经历</p>
+							<span><strong>2016.01 — 2017.09</strong><br>
+									经商创业
+									店长
+									<br>
+									
+									事无巨细，事必躬亲↖(^ω^)↗<br>
+									<strong>2015.06 — 2016.01</strong><br>
+									万峰源广告有限公司<br>
+									活动执行&平面设计<br>
+									
+									
+									负责活动海报设计和活动场地搭建监督。<br>
+									<strong>2012.09-2015.06</strong><br>
+									广州农工商职业技术学院<br>
+									3g软件开发<br>
+									</span>
+						</div>
+					</div>
+				</div>
+				<div class="exp-card2 exp-card">
+					<div class="exp-card-bor">
+						<div class="exp-card-bor-word">
+							
+						</div>
+					</div>
+				</div>
+				<div class="exp-card1 exp-card">
+					<div class="exp-card-bor"></div>
+				</div>
+				<div class="exp-card2 exp-card">
+					<div class="exp-card-bor"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- banner -->
+	<div class="banner">
+		<div class="banner-slide-box">
+			<ul>
+				<li>
+					<div class="slide-word">
+						万事开头难，然后中间难，最后结尾难
+					</div>
+				</li>
+				<li>
+					<div class="slide-word">
+						小孩问富翁：叔叔为什么你这么有钱呢?富翁说：我给你讲个故事吧。很小的时候，我注意到楼下的矿泉水卖一块钱，而三站地外的篮球场上，要卖一块五。我拿着一个大书包，从楼下买水带到球场去卖，卖一块二。一个月我挣了十块钱。小孩说：我好像明白了。富翁说：你明白个屁。后来我爸死了，把钱留给我了。
+					</div>
+				</li>
+				<li>
+					<div class="slide-word">
+						生活不止眼前的苟且，还有远方等着你耕的田野。
+					</div>
+				</li>
+			</ul>
+			<div class="page-box"></div>
+		</div>
+	</div>
+	<!-- 技能 -->
+	<div class="skills" id="skills">
+		<div class="skills-box">
+			<div class="skills-word">
+				<h1>技能</h1>
+				<span>三分天注定 七分靠打拼
+				剩下的九十分你永远也拿不到
+				</span>
+			</div>
+			<div class="skills-centent">
+				<div class="skills-length">
+
+					<div class="skills-true s-1"></div>
+					<div class="length-word ">HTML</div>
+				</div>
+				<div class="skills-length">
+					<div class="skills-true s-2"></div>
+					<div class="length-word ">PHOTO SHOP</div>
+				</div>
+				<div class="skills-length">
+					<div class="skills-true s-3"></div>
+					<div class="length-word ">CSS</div>
+				</div>
+				<div class="skills-length">
+					<div class="skills-true s-4"></div>
+					<div class="length-word">JS</div>
+				</div>
+				<div class="skills-length">
+					<div class="skills-true s-5"></div>
+					<div class="length-word">JQ</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- 联系我 -->
+	<div class="contact" id="contact">
+
+		<div class="weixin">
+			<div class="weixin2">
+				<span>微信</span>
+			</div>
+			<span>微信</span>
+		</div>
+		<div class="qq">
+			<div class="qq2">
+			<span>QQ</span>
+			</div>
+			<span>QQ</span>
+		</div>
+		
+	</div>
+	<!-- 二维码 -->
+	<div class="code-box qqcode-box">
+		<img src="images/qq.jpg" alt="">	
+	</div>
+	<div class="code-box weixincode-box">
+		<img src="images/weixin.png" alt="">	
+	</div>
+	<!-- 底部 -->
+	<div class="footer">
+
+		<div class="footer-img">
+			<img src="images/wu.png" alt="">
+		</div>
+	</div>
+</body>
+		
+<script>
+// 
+	// item文字变色
+	var li=$(".item-mune").find("li");
+	li.click(function(){
+		var itema=$(this).find("a");
+		itema.addClass("a-active");
+		$(this).siblings("li").find("a").removeClass("a-active");
+		// 滚动条跳转滑动
+		var itemHref=itema.attr("href")
+		var str=String(itemHref);
+		str = str.replace(str.substr(0, 1), "");
+		var itemDiv=$('div[id="' + str +'"]')
+		$("html,body").animate({scrollTop: itemDiv.offset().top}, 700);
+	});
+	// 二维码
+	$(".weixin").click(function(){
+		$(".weixincode-box").show();
+	});
+	$(".qq").click(function(){
+		$(".qqcode-box").show();
+	});
+	$(".weixincode-box").click(function(){
+    	$(".weixincode-box").hide();
+	})
+	$(".qqcode-box").click(function(){
+    	$(".qqcode-box").hide();
+	})
+	// 轮播
+	var box=$(".banner-slide-box");
+	var ul=box.find("ul");
+	var li=ul.find("li");
+	var len=li.length;
+	var index=0;
+	widt=li.width();
+	// 添加page
+	for (var i = 0; i <len; i++) {
+		$(".page-box").append('<span class="page"></span>')
+	}
+	// page居中
+	var pageWhith=$(".page-box").width();
+	$(".page-box").css("margin-left",-pageWhith/2)
+	// 第一个page添加样式
+	$(".page-box span").eq(0).addClass("active")
+	// 计时器
+	function play(index){
+		ul.animate({'margin-left':'-' + widt*index + 'px'},1500);
+		$(".page-box span").eq(index).addClass("active").siblings("span").removeClass("active");
+	}
+function timer(){
+	p=setInterval(function(){
+		index++;
+		if (index>=len) {
+			index=0;
+		}
+		play(index);
+	},4000);
+}
+
+	timer();
+	$('.page-box span').each(function(index){
+		$(this).click(function(){
+		clearTimeout(p);
+		ul.animate({'margin-left':'-' + widt*index + 'px'},1500);
+		$(".page-box span").eq(index).addClass("active").siblings("span").removeClass("active");
+		});
+	});	
+
+	
+
+	
+
+		
+// 控制台看滚动条的值
+// function getScrollTop(){   
+//     var scrollTop=0;   
+//     if(document.documentElement&&document.documentElement.scrollTop){   
+//         scrollTop=document.documentElement.scrollTop;   
+//     }else if(document.body){   
+//         scrollTop=document.body.scrollTop;   
+//     }   
+//     return scrollTop;   
+// }   
+
+// 技能动画
+$(document).ready(function(){
+  $(window).scroll(function() {
+  	var top = $(this).scrollTop();
+  	if (top>=4000) {
+
+  		$(".s-1").addClass("html");
+  		$(".s-2").addClass("css");
+  		$(".s-3").addClass("shop");
+  		$(".s-4").addClass("jq");
+  		$(".s-5").addClass("css3");
+  	}
+  });
+});
+// 个人资料那的两页
+ 	var one=$(".one");
+ 	var tow=$(".tow");
+ 	var width=$(".slide1").width();
+	one.on("click",function(){
+		$(this).css("background","rgba(0,0,0,1)");
+		tow.css("background","rgba(0,0,0,0.5)");
+		$(".slide1").animate({
+			left:0
+		},1000);
+		$(".slide2").animate({
+			left:"100%"
+		},1000);
+		
+	});
+	tow.on("click",function(){
+		$(this).css("background","rgba(0,0,0,1)");
+		one.css("background","rgba(0,0,0,0.5)");
+		$(".slide2").animate({
+			left:0
+		},1000);
+		$(".slide1").animate({
+			left:"-100%"
+		},1000);
+	});
+// album动画	
+     // 退出
+	$(document).ready(function(){
+		$(".album-quxiao").click(function(){
+			$(".album").hide()
+		});
+	});
+	// 显示
+		;
+	$(document).ready(function(){
+		$(".work-img li").click(function(){
+			$(".album").show();
+			var img=$(this).find("img");
+			var src=img.attr("src")
+			$(".img-seat").attr("src",src);
+		});
+	});
+// 下一张
+	$(document).ready(function(){
+		$(".album-arr-right").click(function(){
+			var this_src=$(".img-seat").attr("src");	
+			var i=$('img[src="' + this_src +'"]')
+			var a=i.parent();
+			var b=a.next();
+			var c=b.find("img");
+			c=c.attr("src")
+			$(".img-seat").attr("src",c);
+		});
+	});
+// 上一张
+	$(document).ready(function(){
+		$(".album-arr-left").click(function(){
+		var this_src=$(".img-seat").attr("src");	
+			var i=$('img[src="' + this_src +'"]')
+			var a=i.parent();
+			var b=a.prev();
+			var c=b.find("img");
+			c=c.attr("src")
+			$(".img-seat").attr("src",c);
+		});
+	});
+	
+
+// 获取高度
+
+
+
+	$(window).resize(function(){
+		$(".header").css('height',$(window).height());
+	});	
+	$(".loding").css('height',$(window).height());
+	$(".header").css('height',$(window).height());
+	$(".item").css('height',$(window).height());
+	// loading动画
+	 window.onload = function()
+        {
+          $(".loding").fadeOut(1500);  
+        }
+	
+
+// item动画
+	$(".menu").click(function(){
+		$(".item").animate({width:'show'},350,function(){
+			$(".i-h").animate({
+				top:'50px',
+			},1000);
+			$(".i-a").animate({
+				top:'50px',	
+			},900);
+			$(".i-s").animate({
+				top:'50px',	
+			},800);
+			$(".i-p").animate({
+				top:'50px',	
+			},700);
+			$(".i-e").animate({
+				top:'50px',	
+			},600);
+			$(".i-exp").animate({
+				top:'50px',	
+			},500);
+			
+			
+		});
+	})
+	// 收起
+	$(".cancal").click(function(){
+		$(".item").animate({width:'hide'},350,function(){
+			$(".i-h").animate({
+				top:'-400px'
+			})
+			$(".i-a").animate({
+				top:'-400px'
+			})
+			$(".i-s").animate({
+				top:'-400px'
+			})
+			$(".i-p").animate({
+				top:'-400px'
+			})
+			$(".i-e").animate({
+				top:'-400px'
+			})
+			$(".i-exp").animate({
+				top:'-400px'
+			})
+			$("a").removeClass("a-active");
+			
+		});
+	})
+// 分割线
+	
+	
+
+	
+	 
+
+</script>
+	
+</html>
